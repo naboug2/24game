@@ -24,7 +24,6 @@ void all_solutions(double hard_array[3188][4], char op_array[3188][3], bool pAll
                 for (int l = 1; l < 10; l++) {
 
                     // after looping through each number, we loop through all possible operators 3 times (once for every input)
-                    // we are assigning ab to the rhand value and looping thru all numbers and op to get a sum
                     for (int m = 0; m < 4; m++) {    
                         //ab = i operator[m] j                    
                         if ( operator[m] == '+') {
